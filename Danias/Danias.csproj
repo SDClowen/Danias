@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<OutputPath>..\Output</OutputPath>
+		<ApplicationHighDpiMode>true</ApplicationHighDpiMode>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Danias.Core\Danias.Core.csproj" />
+		<ProjectReference Include="..\Danias.Plugins\Danias.Plugins.csproj" />
+	</ItemGroup>
+
+</Project>
